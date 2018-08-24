@@ -2,6 +2,8 @@
 
 This role installs and configures Nexus Repository Manager OSS version 3.x on CentOS/RHEL.
 
+It was forked in order to make it run with the newest Nexus since the original repo seems not to be maintained.
+
 All configuration can be updated by re-running the role, except for the [blobstores](https://books.sonatype.com/nexus-book/3.0/reference/admin.html#admin-repository-blobstores)-related settings, which are immutable in nexus.
 
 ## Requirements
